@@ -1,0 +1,129 @@
+/* box model Fix */
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+header {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+body {
+	background-color: #ffeae7;
+	background-image: url("../images/paper.jpg");
+}
+
+hero {
+	margin-top: -1.5em;
+}
+
+#inspirations{
+	padding-top: -5em;
+	background-color: #161616;
+	border-radius: 125px 125px 125px 125px;
+	color: #fff;
+	z-index: 4;
+}
+
+h1{
+	font-family: 'Playfair Display SC', sans-serif;
+	font-style: bold;
+	font-weight: 700;
+}
+
+a{
+	font-family: 'Playfair Display', sans-serif;
+	font-style: italic;
+}
+
+h2{
+	font-family: 'Playfair Display', sans-serif;
+}
+
+hr.solid {
+	border-top: 3px solid black;
+}
+
+h1#cover{
+	font-size: 5em;
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent; 
+	-webkit-text-border-color:black;
+	background-image: url("../images/pencil-texture.jpg");
+}
+
+h1#logo{
+	font-size: 3em;
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent; 
+	-webkit-text-border-color:black;
+	background-image: url("../images/pencil-texture.jpg");
+}
+
+img {
+
+}
+
+.center{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right{
+	text-align: right;
+}
+
+.btn{
+	margin: 0em 0em 2em 8.7em;
+  z-index: 10
+}
+
+#cover-img {
+	height: 35em;
+	clip-path: circle(50% at 50% 50%);
+}
+
+#artist-img {
+	height: 20em;
+	clip-path: circle(50% at 50% 50%);
+}
+
+#sticky-notes{
+	width:100%;
+}
+
+#shadow{
+	position: absolute;
+	z-index: -50;
+	left: 0px;
+	top: 150px;
+	width: 50%;
+}
+
+#Vogue{
+	padding-top: 1em;
+}
+
+#Artists{
+	padding-top: 1em;
+}
+
+#Runways{
+	padding-top: 1em;
+}
+
+footer {
+	background-color: pink;
+	border-radius: 50px 50px 0px 0px;
+	z-index: 4;
+}
+
+#footer {
+	padding-top: 10vh;
+	padding-left: 10vh;
+}
